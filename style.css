@@ -28,7 +28,8 @@
   max-width: 900px;
 }
 
-.slidev-layout.deck-title h1 span {
+.slidev-layout.deck-title h1 span,
+.slidev-layout.ai-claim-slide h1 span {
   color: var(--deck-accent);
 }
 
@@ -269,13 +270,14 @@
   background: var(--deck-ink);
   overflow: hidden;
   padding: 0;
+  position: relative;
 }
 
 .durant-origin {
   display: grid;
   grid-template-columns: 0.4fr 0.6fr;
-  height: 100%;
-  width: 100%;
+  inset: 0;
+  position: absolute;
 }
 
 .durant-origin-panel {
@@ -296,8 +298,8 @@
 }
 
 .durant-carriage-panel img {
-  filter: saturate(0.78) contrast(1.06);
-  object-position: 55% center;
+  filter: grayscale(1) contrast(1.08);
+  object-position: center;
 }
 
 .durant-origin-label {
@@ -368,9 +370,8 @@
 .durant-buick-card img {
   display: block;
   height: 225px;
-  mix-blend-mode: multiply;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   width: 100%;
 }
 
@@ -405,24 +406,24 @@
 .durant-gm-card {
   background: var(--deck-ink);
   color: var(--deck-paper);
+  gap: 18px;
   padding: 54px 28px 34px;
 }
 
-.durant-gm-card strong {
-  color: var(--deck-accent);
-  font-size: 142px;
-  font-weight: 850;
-  letter-spacing: -0.08em;
-  line-height: 0.82;
-  margin-left: -0.08em;
+.durant-gm-card img {
+  display: block;
+  height: 245px;
+  object-fit: cover;
+  object-position: center 24%;
+  width: 100%;
 }
 
 .durant-gm-card > span:last-child {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 750;
   letter-spacing: 0.13em;
   line-height: 1;
-  margin-top: 28px;
+  text-align: center;
 }
 
 .slidev-layout.headline-collage {

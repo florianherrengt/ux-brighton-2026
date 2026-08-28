@@ -95,7 +95,7 @@ layout: center
 class: ai-claim-slide
 ---
 
-# AI won’t take your job.<br>Someone using AI will.
+# AI won’t take your job.<br><span>Someone using AI will.</span>
 
 ---
 layout: center
@@ -103,7 +103,7 @@ class: ai-claim-slide ai-claim-stamped-slide
 ---
 
 <div class="ai-claim-stamped">
-  <h1>AI won’t take your job.<br>Someone using AI will.</h1>
+  <h1>AI won’t take your job.<br><span>Someone using AI will.</span></h1>
   <div class="bullshit-stamp" aria-label="Bullshit">Bullshit</div>
 </div>
 
@@ -228,9 +228,9 @@ layout: center
 class: durant-diptych
 ---
 
-<div class="durant-origin" role="img" aria-label="William Durant beside a road cart made by the carriage company he co-founded">
+<div class="durant-origin" role="img" aria-label="William Durant beside a historical display of Durant-Dort carriages">
   <div class="durant-origin-panel durant-portrait-panel">
-    <img src="./assets/durant/durant_portrait.jpg" alt="Portrait of William C. Durant" />
+    <img src="./assets/durant/durant_portrait.png" alt="Portrait of William C. Durant" />
     <div class="durant-origin-label">
       <span>1886</span>
       <strong>William Durant</strong>
@@ -238,7 +238,7 @@ class: durant-diptych
   </div>
 
   <div class="durant-origin-panel durant-carriage-panel">
-    <img src="./assets/durant/durant_carriage_company.jpg" alt="A road cart made by the Flint Road Cart Company, later the Durant-Dort Carriage Company" />
+    <img src="./assets/durant/durant_carriage_company.png" alt="A historical display of Durant-Dort carriages and Blue Ribbon Vehicles advertising" />
     <div class="durant-origin-label">
       <span>Horse-drawn vehicles</span>
       <strong>Durant-Dort Carriage Company</strong>
@@ -248,8 +248,8 @@ class: durant-diptych
 
 <!--
 [Sources]
-- William C. Durant portrait (1916), public domain: https://commons.wikimedia.org/wiki/File:WilliamCDurant.jpg
-- Michael Barera, circa 1886–1893 Flint Road Cart Company road cart at the Sloan Museum, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Sloan_Museum_July_2018_09_(c._1886-1893_Flint_Road_Cart_Company_road_cart).jpg
+- User-provided image: assets/durant/durant_portrait.png
+- User-provided image: assets/durant/durant_carriage_company.png
 - General Motors, “Story of GM Founder, William Durant”: https://www.gm.com/heritage
 [/Sources]
 -->
@@ -262,7 +262,7 @@ class: durant-brands
 <div class="durant-brand-story" role="img" aria-label="Durant took over Buick in 1904 and founded General Motors in 1908">
   <div class="durant-buick-card">
     <span class="durant-brand-year">1904</span>
-    <img src="./assets/durant/buick.jpg" alt="A Buick Model B from 1904" />
+    <img src="./assets/durant/buick.jpg" alt="An early Buick automobile displayed in a museum" />
     <strong>BUICK</strong>
   </div>
 
@@ -270,14 +270,15 @@ class: durant-brands
 
   <div class="durant-gm-card">
     <span class="durant-brand-year">1908</span>
-    <strong>GM</strong>
+    <img src="./assets/durant/gm.png" alt="The arched entrance of the General Motors Building" />
     <span>GENERAL MOTORS</span>
   </div>
 </div>
 
 <!--
 [Sources]
-- Buick Model B (1904), New York Public Library Digital Collections, public domain/no known copyright restrictions: https://commons.wikimedia.org/wiki/File:1904Buick.jpg
+- User-provided image: assets/durant/buick.jpg
+- User-provided image: assets/durant/gm.png
 - General Motors, “Story of GM Founder, William Durant”: https://www.gm.com/heritage
 [/Sources]
 -->
