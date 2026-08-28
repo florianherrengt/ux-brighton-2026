@@ -1,0 +1,3 @@
+Florian Herrengt is a software engineer and product builder with over a decade of experience across the industry. He has worked inside large organisations, helped early-stage companies turn ideas into products, led engineering teams and built his own independent product.
+
+Moving between those worlds has given him a practical view of how products, teams and systems behave at very different scales. He has always been fascinated by computers and the ways new technology expands what people can create with them. He is particularly interested in how new technologies can be used to rethink products from first principles and change the way they are built.

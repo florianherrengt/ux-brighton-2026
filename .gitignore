@@ -1,0 +1,12 @@
+.DS_Store
+.slidev
+.vite-inspect
+*-export
+.env
+.env.*
+!.env.example
+*.log
+*.local
+components.d.ts
+dist
+node_modules

@@ -1,0 +1,14 @@
+{
+  "name": "ux-brighton",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.1",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.5.33"
+  }
+}
