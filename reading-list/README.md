@@ -1,7 +1,5 @@
 # UX Brighton research reading list
 
-Talk: 6 November 2026. Copies saved: 8 October 2026.
-
 This folder contains the 26 works in the supplied reading list. The files in `files/` are original PDFs where available, PDF snapshots of public web pages, or (for the Google guidebook) the publisher's ZIP of chapters and worksheets. Each entry below links to the local copy and the live source. The live source remains the place to check for updates and to cite in the talk.
 
 ## Read these six first
