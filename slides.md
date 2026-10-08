@@ -1,6 +1,6 @@
 ---
 theme: default
-title: How to stay relevant in a world where the machines do all the work
+title: What happens when AI can do your job?
 colorSchema: light
 aspectRatio: 16/9
 canvasWidth: 980
@@ -8,7 +8,7 @@ transition: none
 class: deck-title
 ---
 
-# How to stay relevant<br>in a world where the<br><span>machines do all the work</span>
+# What happens when<br><span>AI can do your job?</span>
 
 ---
 layout: center
@@ -217,6 +217,22 @@ class: electrified-factory-slide
 
 ---
 layout: center
+class: factory-photo-slide
+---
+
+<img
+  src="./assets/factory/factory-control-panel-user-provided.png"
+  alt="Worker operating a control panel among rows of machinery and pipes in a factory"
+/>
+
+<!--
+[Sources]
+- User-provided image: assets/factory/factory-control-panel-user-provided.png
+[/Sources]
+-->
+
+---
+layout: center
 class: "durant-diptych red-flag-full-photos"
 ---
 
@@ -238,16 +254,6 @@ class: "durant-diptych red-flag-full-photos"
 - User-provided image: assets/red-flag/red_flag_2.jpg
 [/Sources]
 -->
-
----
-layout: center
-class: "statement-slide meat-proxy-slide"
----
-
-<div class="meat-proxy-definition">
-  <h1>Meat proxy</h1>
-  <p>a human who relays work to and from an AI without adding meaningful <strong>judgment</strong> or <strong>value</strong>.</p>
-</div>
 
 ---
 layout: center
@@ -341,6 +347,16 @@ class: durant-diptych
 - Historic England Archive image-use policy: https://historicengland.org.uk/images-books/archive/policies/using-images/
 [/Sources]
 -->
+
+---
+layout: center
+class: "statement-slide meat-proxy-slide"
+---
+
+<div class="meat-proxy-definition">
+  <h1>Meat proxy</h1>
+  <p>a human who relays work to and from an AI without adding meaningful <strong>judgment</strong> or <strong>value</strong>.</p>
+</div>
 
 ---
 layout: center

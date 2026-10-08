@@ -375,7 +375,8 @@
 
 .slidev-layout.factory-video-slide,
 .slidev-layout.edison-slide,
-.slidev-layout.electrified-factory-slide {
+.slidev-layout.electrified-factory-slide,
+.slidev-layout.factory-photo-slide {
   background: var(--deck-ink);
   overflow: hidden;
   padding: 0;
@@ -394,6 +395,20 @@
   object-fit: cover;
   object-position: center 48%;
   width: 100%;
+}
+
+.slidev-layout.factory-photo-slide img {
+  display: block;
+  height: 100%;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.slidev-layout.factory-photo-slide {
+  position: relative;
 }
 
 .electrified-factory {

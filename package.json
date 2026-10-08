@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build"
+    "build": "slidev build",
+    "test": "node --test"
   },
   "dependencies": {
     "@slidev/cli": "^52.19.1",

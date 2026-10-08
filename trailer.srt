@@ -1,0 +1,415 @@
+1
+00:00:00,020 --> 00:00:00,220
+<font color='#ffff00'>Hi,</font> I'm Florian and I'll be
+
+2
+00:00:00,220 --> 00:00:00,380
+Hi, I'm Florian and I'll be
+
+3
+00:00:00,380 --> 00:00:00,920
+Hi, <font color='#ffff00'>I'm</font> Florian and I'll be
+
+4
+00:00:00,920 --> 00:00:01,300
+Hi, I'm <font color='#ffff00'>Florian</font> and I'll be
+
+5
+00:00:01,300 --> 00:00:01,860
+Hi, I'm Florian <font color='#ffff00'>and</font> I'll be
+
+6
+00:00:01,860 --> 00:00:02,040
+Hi, I'm Florian and <font color='#ffff00'>I'll</font> be
+
+7
+00:00:02,040 --> 00:00:02,120
+Hi, I'm Florian and I'll <font color='#ffff00'>be</font>
+
+8
+00:00:02,120 --> 00:00:02,320
+<font color='#ffff00'>talking</font> about AI. AI.
+
+9
+00:00:02,320 --> 00:00:02,520
+talking <font color='#ffff00'>about</font> AI. AI.
+
+10
+00:00:02,520 --> 00:00:02,820
+talking about <font color='#ffff00'>AI.</font> AI.
+
+11
+00:00:02,820 --> 00:00:03,000
+talking about AI. AI.
+
+12
+00:00:03,000 --> 00:00:03,200
+talking about AI. <font color='#ffff00'>AI.</font>
+
+13
+00:00:03,860 --> 00:00:04,060
+<font color='#ffff00'>AI.</font> And while the technology is amazing,
+
+14
+00:00:04,060 --> 00:00:04,420
+AI. And while the technology is amazing,
+
+15
+00:00:04,420 --> 00:00:04,600
+AI. <font color='#ffff00'>And</font> while the technology is amazing,
+
+16
+00:00:04,600 --> 00:00:04,960
+AI. And <font color='#ffff00'>while</font> the technology is amazing,
+
+17
+00:00:04,960 --> 00:00:05,140
+AI. And while <font color='#ffff00'>the</font> technology is amazing,
+
+18
+00:00:05,140 --> 00:00:05,420
+AI. And while the <font color='#ffff00'>technology</font> is amazing,
+
+19
+00:00:05,420 --> 00:00:05,920
+AI. And while the technology <font color='#ffff00'>is</font> amazing,
+
+20
+00:00:05,920 --> 00:00:06,280
+AI. And while the technology is <font color='#ffff00'>amazing,</font>
+
+21
+00:00:06,540 --> 00:00:06,740
+<font color='#ffff00'>it</font> also comes with a dark cloud.
+
+22
+00:00:06,740 --> 00:00:07,040
+it <font color='#ffff00'>also</font> comes with a dark cloud.
+
+23
+00:00:07,040 --> 00:00:07,400
+it also <font color='#ffff00'>comes</font> with a dark cloud.
+
+24
+00:00:07,400 --> 00:00:07,540
+it also comes <font color='#ffff00'>with</font> a dark cloud.
+
+25
+00:00:07,540 --> 00:00:07,660
+it also comes with <font color='#ffff00'>a</font> dark cloud.
+
+26
+00:00:07,660 --> 00:00:07,900
+it also comes with a <font color='#ffff00'>dark</font> cloud.
+
+27
+00:00:07,900 --> 00:00:08,380
+it also comes with a dark <font color='#ffff00'>cloud.</font>
+
+28
+00:00:16,600 --> 00:00:16,780
+<font color='#ffff00'>And</font> I wish I had a crystal
+
+29
+00:00:16,780 --> 00:00:16,860
+And <font color='#ffff00'>I</font> wish I had a crystal
+
+30
+00:00:16,860 --> 00:00:17,020
+And I <font color='#ffff00'>wish</font> I had a crystal
+
+31
+00:00:17,020 --> 00:00:17,140
+And I wish <font color='#ffff00'>I</font> had a crystal
+
+32
+00:00:17,140 --> 00:00:17,280
+And I wish I <font color='#ffff00'>had</font> a crystal
+
+33
+00:00:17,280 --> 00:00:17,360
+And I wish I had <font color='#ffff00'>a</font> crystal
+
+34
+00:00:17,360 --> 00:00:17,600
+And I wish I had a <font color='#ffff00'>crystal</font>
+
+35
+00:00:17,600 --> 00:00:17,920
+<font color='#ffff00'>ball</font> to see into the future.
+
+36
+00:00:17,920 --> 00:00:18,040
+ball <font color='#ffff00'>to</font> see into the future.
+
+37
+00:00:18,040 --> 00:00:18,160
+ball to <font color='#ffff00'>see</font> into the future.
+
+38
+00:00:18,160 --> 00:00:18,380
+ball to see <font color='#ffff00'>into</font> the future.
+
+39
+00:00:18,380 --> 00:00:18,520
+ball to see into <font color='#ffff00'>the</font> future.
+
+40
+00:00:18,520 --> 00:00:18,800
+ball to see into the <font color='#ffff00'>future.</font>
+
+41
+00:00:22,720 --> 00:00:22,940
+<font color='#ffff00'>But</font> unfortunately, I don't.
+
+42
+00:00:22,940 --> 00:00:23,380
+But <font color='#ffff00'>unfortunately,</font> I don't.
+
+43
+00:00:23,380 --> 00:00:23,960
+But unfortunately, I don't.
+
+44
+00:00:23,960 --> 00:00:24,080
+But unfortunately, <font color='#ffff00'>I</font> don't.
+
+45
+00:00:24,080 --> 00:00:24,440
+But unfortunately, I <font color='#ffff00'>don't.</font>
+
+46
+00:00:26,040 --> 00:00:26,220
+<font color='#ffff00'>So</font> what can we do to
+
+47
+00:00:26,220 --> 00:00:26,360
+So <font color='#ffff00'>what</font> can we do to
+
+48
+00:00:26,360 --> 00:00:26,540
+So what <font color='#ffff00'>can</font> we do to
+
+49
+00:00:26,540 --> 00:00:26,640
+So what can <font color='#ffff00'>we</font> do to
+
+50
+00:00:26,640 --> 00:00:26,920
+So what can we <font color='#ffff00'>do</font> to
+
+51
+00:00:26,920 --> 00:00:27,260
+So what can we do <font color='#ffff00'>to</font>
+
+52
+00:00:27,260 --> 00:00:27,760
+<font color='#ffff00'>future</font>-proof ourselves and learn how
+
+53
+00:00:27,760 --> 00:00:27,920
+future<font color='#ffff00'>-proof</font> ourselves and learn how
+
+54
+00:00:27,920 --> 00:00:28,260
+future-proof <font color='#ffff00'>ourselves</font> and learn how
+
+55
+00:00:28,260 --> 00:00:29,100
+future-proof ourselves <font color='#ffff00'>and</font> learn how
+
+56
+00:00:29,100 --> 00:00:29,660
+future-proof ourselves and <font color='#ffff00'>learn</font> how
+
+57
+00:00:29,660 --> 00:00:29,900
+future-proof ourselves and learn <font color='#ffff00'>how</font>
+
+58
+00:00:29,900 --> 00:00:30,100
+<font color='#ffff00'>to</font> adapt to this new technology?
+
+59
+00:00:30,100 --> 00:00:30,420
+to <font color='#ffff00'>adapt</font> to this new technology?
+
+60
+00:00:30,420 --> 00:00:30,640
+to adapt <font color='#ffff00'>to</font> this new technology?
+
+61
+00:00:30,640 --> 00:00:30,760
+to adapt to <font color='#ffff00'>this</font> new technology?
+
+62
+00:00:30,760 --> 00:00:30,880
+to adapt to this <font color='#ffff00'>new</font> technology?
+
+63
+00:00:30,880 --> 00:00:31,200
+to adapt to this new <font color='#ffff00'>technology?</font>
+
+64
+00:00:31,970 --> 00:00:32,080
+<font color='#ffff00'>Well,</font> we'll look at the past,
+
+65
+00:00:32,080 --> 00:00:32,280
+Well, we'll look at the past,
+
+66
+00:00:32,280 --> 00:00:32,560
+Well, <font color='#ffff00'>we'll</font> look at the past,
+
+67
+00:00:32,560 --> 00:00:32,640
+Well, we'll <font color='#ffff00'>look</font> at the past,
+
+68
+00:00:32,640 --> 00:00:32,720
+Well, we'll look <font color='#ffff00'>at</font> the past,
+
+69
+00:00:32,720 --> 00:00:32,780
+Well, we'll look at <font color='#ffff00'>the</font> past,
+
+70
+00:00:32,780 --> 00:00:33,140
+Well, we'll look at the <font color='#ffff00'>past,</font>
+
+71
+00:00:33,300 --> 00:00:33,500
+<font color='#ffff00'>what</font> other people have done,
+
+72
+00:00:33,500 --> 00:00:33,760
+what <font color='#ffff00'>other</font> people have done,
+
+73
+00:00:33,760 --> 00:00:33,960
+what other <font color='#ffff00'>people</font> have done,
+
+74
+00:00:33,960 --> 00:00:34,240
+what other people <font color='#ffff00'>have</font> done,
+
+75
+00:00:34,240 --> 00:00:34,440
+what other people have <font color='#ffff00'>done,</font>
+
+76
+00:00:35,180 --> 00:00:35,480
+<font color='#ffff00'>and</font> try to come up with some
+
+77
+00:00:35,480 --> 00:00:35,660
+and <font color='#ffff00'>try</font> to come up with some
+
+78
+00:00:35,660 --> 00:00:35,800
+and try <font color='#ffff00'>to</font> come up with some
+
+79
+00:00:35,800 --> 00:00:35,920
+and try to <font color='#ffff00'>come</font> up with some
+
+80
+00:00:35,920 --> 00:00:36,080
+and try to come <font color='#ffff00'>up</font> with some
+
+81
+00:00:36,080 --> 00:00:36,240
+and try to come up <font color='#ffff00'>with</font> some
+
+82
+00:00:36,240 --> 00:00:36,460
+and try to come up with <font color='#ffff00'>some</font>
+
+83
+00:00:36,460 --> 00:00:37,280
+<font color='#ffff00'>practical</font> tips on what you can do
+
+84
+00:00:37,280 --> 00:00:37,620
+practical tips on what you can do
+
+85
+00:00:37,620 --> 00:00:37,700
+practical <font color='#ffff00'>tips</font> on what you can do
+
+86
+00:00:37,700 --> 00:00:38,140
+practical tips <font color='#ffff00'>on</font> what you can do
+
+87
+00:00:38,140 --> 00:00:38,340
+practical tips on <font color='#ffff00'>what</font> you can do
+
+88
+00:00:38,340 --> 00:00:38,480
+practical tips on what <font color='#ffff00'>you</font> can do
+
+89
+00:00:38,480 --> 00:00:38,580
+practical tips on what you <font color='#ffff00'>can</font> do
+
+90
+00:00:38,580 --> 00:00:38,800
+practical tips on what you can <font color='#ffff00'>do</font>
+
+91
+00:00:38,800 --> 00:00:39,180
+<font color='#ffff00'>today.</font> Join us at UX Brighton
+
+92
+00:00:39,180 --> 00:00:39,850
+today. Join us at UX Brighton
+
+93
+00:00:39,850 --> 00:00:39,960
+today. <font color='#ffff00'>Join</font> us at UX Brighton
+
+94
+00:00:39,960 --> 00:00:40,140
+today. Join <font color='#ffff00'>us</font> at UX Brighton
+
+95
+00:00:40,140 --> 00:00:40,460
+today. Join us <font color='#ffff00'>at</font> UX Brighton
+
+96
+00:00:40,460 --> 00:00:40,620
+today. Join us at <font color='#ffff00'>UX</font> Brighton
+
+97
+00:00:40,620 --> 00:00:41,120
+today. Join us at UX <font color='#ffff00'>Brighton</font>
+
+98
+00:00:41,120 --> 00:00:41,500
+<font color='#ffff00'>on</font> the 6th of November, 2026.
+
+99
+00:00:41,500 --> 00:00:41,520
+on <font color='#ffff00'>the</font> 6th of November, 2026.
+
+100
+00:00:41,520 --> 00:00:41,760
+on the <font color='#ffff00'>6th</font> of November, 2026.
+
+101
+00:00:41,760 --> 00:00:41,820
+on the 6th <font color='#ffff00'>of</font> November, 2026.
+
+102
+00:00:41,820 --> 00:00:42,160
+on the 6th of <font color='#ffff00'>November,</font> 2026.
+
+103
+00:00:42,160 --> 00:00:42,300
+on the 6th of November, 2026.
+
+104
+00:00:42,300 --> 00:00:42,920
+on the 6th of November, <font color='#ffff00'>2026.</font>
