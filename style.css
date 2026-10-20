@@ -50,6 +50,27 @@
   width: auto;
 }
 
+.slidev-layout.chart-zoom-slide {
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.slidev-layout.chart-zoom-slide img {
+  height: auto;
+  left: -68px;
+  max-height: none;
+  max-width: none;
+  position: absolute;
+  top: -110px;
+  width: 2024px;
+}
+
+.slidev-layout.chart-zoom-right img {
+  left: auto;
+  right: 0;
+}
+
 .slidev-layout.statement-slide {
   align-items: center;
   background: var(--deck-accent);

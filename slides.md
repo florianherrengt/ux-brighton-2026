@@ -47,22 +47,6 @@ class: image-slide
 ---
 
 <img
-  src="./assets/horses/replacement+of+horses+by+tractors+in+the+united+states-2357949175.jpg"
-  alt="Replacement of horses by cars in the United States from 1900 to 1960"
-/>
-
-<!--
-[Sources]
-- StaDaFa.com chart; underlying data sources are credited within the image.
-[/Sources]
--->
-
----
-layout: center
-class: image-slide
----
-
-<img
   src="./assets/horses/stanford-ai-index-2026-benchmarks-vs-human-performance.jpg"
   alt="Stanford AI Index 2026 chart comparing selected AI benchmarks with a 100% human performance baseline from 2012 to 2025, with the complete benchmark legend"
 />
@@ -72,6 +56,58 @@ class: image-slide
 - Stanford HAI, 2026 AI Index Report, Technical Performance, figure 2.1.1, “Select AI Index technical performance benchmarks vs. human performance”: https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
 - Original 2024 × 1505 JPEG, downloaded unmodified on 2026-10-20: https://hai.stanford.edu/assets/images/fig_211.jpg
 - © Stanford University. No chart-specific open reuse licence identified; user-requested reproduction from the publisher. General site terms: https://www.stanford.edu/terms
+[/Sources]
+-->
+
+---
+layout: center
+class: image-slide chart-zoom-slide
+---
+
+<img
+  src="./assets/horses/stanford-ai-index-2026-benchmarks-vs-human-performance.jpg"
+  alt="Close-up of the chart’s upper left, showing the Human baseline label, the dashed 100% line and early AI benchmark results"
+/>
+
+<!--
+[Sources]
+- Zoomed view of the same unmodified Stanford HAI 2026 AI Index chart on the preceding slide, figure 2.1.1: https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
+- Original 2024 × 1505 JPEG: https://hai.stanford.edu/assets/images/fig_211.jpg
+- © Stanford University. No chart-specific open reuse licence identified; user-requested reproduction from the publisher. General site terms: https://www.stanford.edu/terms
+[/Sources]
+-->
+
+---
+layout: center
+class: image-slide chart-zoom-slide chart-zoom-right
+---
+
+<img
+  src="./assets/horses/stanford-ai-index-2026-benchmarks-vs-human-performance.jpg"
+  alt="Close-up of the chart’s upper right, showing recent AI benchmark results approaching and exceeding the dashed 100% human performance baseline"
+/>
+
+<!--
+[Sources]
+- Zoomed view of the same unmodified Stanford HAI 2026 AI Index chart, figure 2.1.1: https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
+- Original 2024 × 1505 JPEG: https://hai.stanford.edu/assets/images/fig_211.jpg
+- © Stanford University. No chart-specific open reuse licence identified; user-requested reproduction from the publisher. General site terms: https://www.stanford.edu/terms
+[/Sources]
+-->
+
+---
+layout: center
+class: image-slide
+---
+
+<img
+  src="./assets/horses/replacement+of+horses+by+tractors+in+the+united+states-2357949175.jpg"
+  alt="Replacement of horses by cars in the United States from 1900 to 1960"
+/>
+
+<!--
+[Sources]
+- StaDaFa.com chart; underlying data sources are credited within the image.
 [/Sources]
 -->
 
@@ -645,24 +681,6 @@ If you want to achieve more, you have a few options:
 
 ---
 layout: center
-class: ai-claim-slide draft-detail-slide
----
-
-<div class="quote-slide-content">
-  <h1>Why are we keeping<br><span>the same process?</span></h1>
-  <p class="draft-workflow" aria-label="Ticket, design, build, review, test, ship">Ticket → Design → Build<br>→ Review → Test → Ship</p>
-</div>
-
-<!--
-[Sources]
-- Illustrative product workflow and proposed redesign from draft.md, “We haven't redesigned the factory yet.”
-[/Sources]
-
-We should be rebuilding everything from the ground up around what the technology makes possible.
--->
-
----
-layout: center
 class: factory-photo-slide draft-caption-slide
 ---
 
@@ -705,26 +723,6 @@ class: ai-claim-slide draft-detail-slide
 
 Build systems that can make decisions, execute them and verify the results without constant supervision. Then use the capacity you've gained to solve more problems.
 Number 3 is the only correct answer. It is time to tackle the problems we never had the time, money or resources to solve.
--->
-
----
-layout: center
-class: ai-claim-slide draft-detail-slide
----
-
-<div class="quote-slide-content">
-  <h1>Every step.<br>Every handoff.<br>Every approval.</h1>
-  <p class="quote-attribution">Why is it still there?</p>
-</div>
-
-<!--
-[Sources]
-- Author's design questions from draft.md, “We haven't redesigned the factory yet.”
-[/Sources]
-
-Look at every step, every handoff, every approval. Treat them like the transmission belts in an old factory. Why are they still there? Are we keeping them because that's how we've always done things?
-The goal is to automate as much of the process as possible, including the decisions and checks that previously required human involvement.
-If you can't make it work reliably, either you've built it badly or you're using the wrong technology for the problem.
 -->
 
 ---
