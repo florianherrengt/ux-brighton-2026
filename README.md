@@ -2,6 +2,21 @@
 
 This repository contains the Slidev deck and a small local subtitle utility.
 
+## PowerPoint export
+
+With Dagger and Docker running, `npm run build:pptx` builds the deck and writes
+`dist/ux-brighton-2026.pptx`. The export contains one image per slide, so the
+factory video appears as a still frame.
+
+Enable the tracked pre-commit hook once per checkout:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+When deck or export inputs are staged, the hook builds those staged sources through Dagger.
+A failed build stops the commit; the generated PowerPoint stays in ignored `dist/`.
+
 ## Word-highlighted subtitles for DaVinci Resolve Free
 
 Prerequisites on macOS:

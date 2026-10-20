@@ -1,0 +1,247 @@
+{
+ "n": 1500,
+ "gran": {
+  "Figma": {
+   "cat": "Tools — design",
+   "pct": 53
+  },
+  "Adobe (XD / Illustrator / Photoshop)": {
+   "cat": "Tools — design",
+   "pct": 30
+  },
+  "Sketch": {
+   "cat": "Tools — design",
+   "pct": 8
+  },
+  "Framer": {
+   "cat": "Tools — design",
+   "pct": 3
+  },
+  "Webflow": {
+   "cat": "Tools — design",
+   "pct": 3
+  },
+  "InVision": {
+   "cat": "Tools — design",
+   "pct": 2
+  },
+  "Miro / FigJam / Mural": {
+   "cat": "Tools — design",
+   "pct": 2
+  },
+  "UserTesting.com": {
+   "cat": "Tools — research & analytics",
+   "pct": 0
+  },
+  "Maze": {
+   "cat": "Tools — research & analytics",
+   "pct": 1
+  },
+  "Hotjar": {
+   "cat": "Tools — research & analytics",
+   "pct": 1
+  },
+  "Dovetail": {
+   "cat": "Tools — research & analytics",
+   "pct": 0
+  },
+  "Optimal Workshop / card sorting": {
+   "cat": "Tools — research & analytics",
+   "pct": 0
+  },
+  "Google Analytics / GA4": {
+   "cat": "Tools — research & analytics",
+   "pct": 2
+  },
+  "Amplitude / Mixpanel": {
+   "cat": "Tools — research & analytics",
+   "pct": 1
+  },
+  "Jira": {
+   "cat": "Tools — project & docs",
+   "pct": 1
+  },
+  "Confluence": {
+   "cat": "Tools — project & docs",
+   "pct": 0
+  },
+  "Notion": {
+   "cat": "Tools — project & docs",
+   "pct": 2
+  },
+  "Asana / Trello": {
+   "cat": "Tools — project & docs",
+   "pct": 1
+  },
+  "Design systems": {
+   "cat": "Craft — core design",
+   "pct": 52
+  },
+  "Prototyping": {
+   "cat": "Craft — core design",
+   "pct": 51
+  },
+  "Visual / UI design": {
+   "cat": "Craft — core design",
+   "pct": 30
+  },
+  "Wireframing": {
+   "cat": "Craft — core design",
+   "pct": 24
+  },
+  "Interaction design": {
+   "cat": "Craft — core design",
+   "pct": 18
+  },
+  "Motion design / microinteractions": {
+   "cat": "Craft — core design",
+   "pct": 20
+  },
+  "Responsive / mobile": {
+   "cat": "Craft — core design",
+   "pct": 15
+  },
+  "Information architecture": {
+   "cat": "Craft — core design",
+   "pct": 9
+  },
+  "User flows": {
+   "cat": "Craft — core design",
+   "pct": 15
+  },
+  "Content design / UX writing": {
+   "cat": "Craft — core design",
+   "pct": 5
+  },
+  "Service design": {
+   "cat": "Craft — core design",
+   "pct": 2
+  },
+  "Design thinking": {
+   "cat": "Craft — core design",
+   "pct": 5
+  },
+  "Accessibility (WCAG / ADA)": {
+   "cat": "Craft — core design",
+   "pct": 26
+  },
+  "User research": {
+   "cat": "Research & validation",
+   "pct": 25
+  },
+  "Usability testing": {
+   "cat": "Research & validation",
+   "pct": 15
+  },
+  "User / customer interviews": {
+   "cat": "Research & validation",
+   "pct": 4
+  },
+  "Journey mapping": {
+   "cat": "Research & validation",
+   "pct": 12
+  },
+  "Personas": {
+   "cat": "Research & validation",
+   "pct": 4
+  },
+  "Surveys": {
+   "cat": "Research & validation",
+   "pct": 3
+  },
+  "A/B testing / experimentation": {
+   "cat": "Research & validation",
+   "pct": 6
+  },
+  "Analytics / metrics / KPIs": {
+   "cat": "Research & validation",
+   "pct": 18
+  },
+  "Heuristic evaluation / UX audit": {
+   "cat": "Research & validation",
+   "pct": 1
+  },
+  "HTML / CSS": {
+   "cat": "Engineering adjacency",
+   "pct": 11
+  },
+  "JavaScript": {
+   "cat": "Engineering adjacency",
+   "pct": 6
+  },
+  "React": {
+   "cat": "Engineering adjacency",
+   "pct": 5
+  },
+  "AI tools (GenAI / LLM mentions)": {
+   "cat": "AI fluency",
+   "pct": 32
+  },
+  "Cross-functional collaboration": {
+   "cat": "Process & soft skills",
+   "pct": 80
+  },
+  "Stakeholder management": {
+   "cat": "Process & soft skills",
+   "pct": 34
+  },
+  "Presenting / storytelling": {
+   "cat": "Process & soft skills",
+   "pct": 39
+  },
+  "Workshop facilitation": {
+   "cat": "Process & soft skills",
+   "pct": 11
+  },
+  "Mentoring": {
+   "cat": "Process & soft skills",
+   "pct": 17
+  },
+  "Agile / scrum / sprints": {
+   "cat": "Process & soft skills",
+   "pct": 10
+  },
+  "Design handoff": {
+   "cat": "Process & soft skills",
+   "pct": 10
+  },
+  "Portfolio required": {
+   "cat": "Credentials",
+   "pct": 54
+  },
+  "Degree (bachelor / master)": {
+   "cat": "Credentials",
+   "pct": 16
+  }
+ },
+ "high": [
+  [
+   "Design craft & methods",
+   85
+  ],
+  [
+   "User research & validation",
+   46
+  ],
+  [
+   "Named design tools",
+   63
+  ],
+  [
+   "AI fluency",
+   32
+  ],
+  [
+   "Coding adjacency",
+   14
+  ],
+  [
+   "Collaboration & communication",
+   90
+  ],
+  [
+   "Credentials",
+   60
+  ]
+ ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "JX9xNgN0vmk",
+  "title": "Why \"AI Replacing Developers\" Won't Work",
+  "webpage_url": "https://www.youtube.com/watch?v=JX9xNgN0vmk",
+  "channel": "HealthyGamerGG",
+  "channel_url": "https://www.youtube.com/channel/UClHVl2N3jPEbkNJVx-ItQIQ",
+  "uploader": "HealthyGamerGG",
+  "upload_date": "20261017",
+  "duration": 1343,
+  "language": "en-US",
+  "license": null,
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Intro",
+      "end_time": 167
+    },
+    {
+      "start_time": 167,
+      "title": "Table of Contents",
+      "end_time": 433
+    },
+    {
+      "start_time": 433,
+      "title": "The Incorrect Way to Use AI",
+      "end_time": 492
+    },
+    {
+      "start_time": 492,
+      "title": "Bad Responses From AI",
+      "end_time": 573
+    },
+    {
+      "start_time": 573,
+      "title": "When the AI Beats You",
+      "end_time": 671
+    },
+    {
+      "start_time": 671,
+      "title": "What is AI Bad At?",
+      "end_time": 766
+    },
+    {
+      "start_time": 766,
+      "title": "How to Survive AI",
+      "end_time": 881
+    },
+    {
+      "start_time": 881,
+      "title": "Invest in Deep Learning",
+      "end_time": 926
+    },
+    {
+      "start_time": 926,
+      "title": "Major Factors of Increased Productivity",
+      "end_time": 988
+    },
+    {
+      "start_time": 988,
+      "title": "The Psychological Impacts of AI",
+      "end_time": 1118
+    },
+    {
+      "start_time": 1118,
+      "title": "Danger and Opportunity",
+      "end_time": 1139
+    },
+    {
+      "start_time": 1139,
+      "title": "The Impact of Management",
+      "end_time": 1343
+    }
+  ],
+  "downloaded_date": "2026-10-17",
+  "downloaded_video": {
+    "file": "video.mp4",
+    "width": 1920,
+    "height": 1080,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_language": "en",
+    "duration_seconds": 1343.367256,
+    "bytes": 193974543,
+    "sha256": "4fddbfbbe7eb22b9a8a38d701a2a2bc5fe65fc8664d6f9df530b772187a1d184"
+  },
+  "rights_status": "No explicit reusable licence supplied in the retrieved YouTube metadata.",
+  "transcription": {
+    "file": "transcript.txt",
+    "method": "Local automatic speech recognition with Handy",
+    "model": "handy-computer/parakeet-unified-en-0.6b-gguf/parakeet-unified-en-0.6b-Q8_0.gguf",
+    "backend": "MTL0",
+    "audio_seconds_processed": 1343.36725,
+    "words": 4222,
+    "raw_result_file": "transcription.json",
+    "status": "Unedited automatic transcript"
+  },
+  "validation": {
+    "full_video_audio_decode": "Passed with ffmpeg; no decode errors",
+    "transcript_matches_model_output": true,
+    "processed_audio_matches_video_duration": true
+  }
+}

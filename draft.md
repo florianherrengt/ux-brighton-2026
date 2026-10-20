@@ -1,4 +1,4 @@
-# AI won’t take your job. It will remove the need for it.
+# What happens when AI can do your job?
 
 AI has been all over the news for a while now and there is no denying that it is getting good.
 
@@ -104,131 +104,121 @@ Eventually, he could repair engines that others could not and a few years later,
 
 He treated the machine producing those tasks as something he could understand, alter and eventually rebuild.
 
-## Build and understand systems
+## Why were you hired in the first place?
 
-Okay, so how do we remain economically valuable?
+Before we talk about AI replacing your job, let's start with a simple question.
 
-There is a pattern in these stories.
+Why is your company paying you so much money?
 
-Every time a new technology was introduced, the people who did particularly well didn't use it to do the work better. They spent time to understand it and used their skills to build systems around it.
+Think about what you do all day. You sit in front of a computer.
+All you need is a laptop and an internet connection. They could hire someone from anywhere in the world.
 
-When machines can produce more work than anyone, production is no longer a scarce resource.
+There are plenty of people with similar qualifications willing to do your work for much less.
 
-Someone still has to decide what should be done and evaluate if the results are good. Then find where it is failing and why. You need decades to build those skills.
+Why didn't your company hire them? Why did they hire you instead?
 
-The important distinction, at least for now, is between doing the work and designing the thing that does the work.
+A lower salary doesn't mean someone is less capable. An excellent engineer, designer or analyst can live somewhere with a lower cost of living. Your location by itself doesn't grant you better skills.
 
-We can already see this happening.
+It's because the cost of hiring you is a lot more than your monthly paycheck and the cost of getting it wrong is even higher.
 
-We take processes designed around humans doing the work, replace one step with a machine, then carefully preserve everything around it.
+## The cost of getting is wrong
 
-Whenever you are the "human in the loop", ask yourself if it is really necessary or if you are just the man holding the red flag.
+Let's take an average team building a software product.
 
-The practical move is not to use AI to perform your current step faster but to automate it. There are now plenty of things that were not worth doing because it was just too much work.
+At first, everything moves quickly. Feature gets built and shipped on time. Everyone's happy.
+But nobody checks how the changes affect the rest of the product and bad decisions keep pilling on. For a while, it doesn't matter because the team keeps meeting its deadlines.
 
-Take something you do repeatedly and ask what would have to exist for you not to do it at all.
-Build a system and watch where it breaks. Do not just fix the mistake. Fix the system itself.
+Then things start breaking. Fixes are getting increasingly complicated.
+Customers complain. The next release gets postponed. The team spends another week fixing the previous release.
 
-The goal is not to do the same work faster forever but to keep removing the reasons the work needs your attention in the first place.
+After a while, features that used to take days take weeks, then months and eventually nothing gets shipped. Everyone is scared to touch anything because they don't know what will break.
 
-This does not guarantee that the machine will eventually do your job. Technology will keep improving and humans will constantly have to adapt to it.
+The company is paying an entire team to deal with the consequences of its previous bad decisions instead of shipping software to customers.
 
-## Find the bottleneck
+## You are paid to make good decisions
 
-I do not know what this looks like for you. That is something you will have to figure out.
-Personally, I am betting on evals.
+There used to be a physical limit to how many bad decisions someone could make. This is no longer the case with AI.
 
-We have already become pretty good at building systems that produce work.
-The harder problem is building systems that can tell whether that work is actually good.
+It doesn't matter if AI can "do your job". More than even, there is one reason why you are getting paid.
 
-If we can reliably evaluate the output, we can reject failures, find recurring weaknesses and feed those results back into the system.
+** You are paid to consistently make good decisions with incomplete information, under constraints and without constant supervision**.
 
-But I'm sure that, one day, much of it will also be automated.
+That includes knowing how to ship useful work on time without turning the product into something that breaks whenever someone changes it.
 
-The only durable skill is learning to identify a bottleneck and turning it into something the new system can use.
+You need to know when a shortcut is acceptable. When to fix something properly and when to leave it alone. Sometimes the right decision is to argue with the stakeholders to remove the requirement that makes the project difficult too. This isn't something AI is going to do.
 
-But that is my bet.
+A good designer needs to find a solution people can use and the team can build. A good product manager needs to choose work worth the resources it consumes. An engineer needs to deliver it without making future work unnecessarily difficult.
 
-Yours might be completely different. Just don't become better at carrying the red flag or replace your steam engine with an electric one.
+In this process, everyone has to understand the trade-offs, resolve disagreements and get the change implemented.
 
-## Where to start
+A company is paying for a dependable result, including the effort needed to get there and the cost of getting it wrong.
 
-Here are a few questions I think are useful:
+## Using AI for the wrong things
 
-- What am I using AI to make faster that I should instead be trying to eliminate?
-- What context or rules do I repeatedly have to supply by hand?
-- What information do I keep having to find?
-- What mistakes do I repeatedly catch and correct?
-- What would need to change so that those mistakes could not happen again?
-- What would the system need to finish the job itself?
-- If I removed myself from this workflow tomorrow, where would it break first?
+Most people are using AI to do exactly the same work they were doing before, just faster and with less effort while celebrating how much more productive they've become.
 
-A few examples make this easier to see.
+When computers became more powerful, we didn't just use them to perform the same calculations faster.
+We started solving problems that were previously too expensive or complicated to attempt.
 
-### Developer
+Are you doing your work faster? Everyone is doing it. It's just a requirement at that point, like knowing how to use Figma.
+Is it making your job easier? You're reducing your own market value. Now someone cheaper can do it.
+You're producing more work. Who is reviewing it? You're creating more work without delivering more value.
 
-You keep reviewing pull requests for the same problems.
+And lastly, my favourite one. People who use AI to avoid learning. You get results without understanding how they work. There is absolutely zero value in hiring you because anyone can do that.
 
-Do not make faster review the goal. That is a small and temporary improvement.
+## Attention is all you need
 
-Build those checks into the system instead.
+If you're paid to think and make good decisions, your ability to process information and make decisions is limited. You only have so much attention and mental energy each day.
 
-Design an environment in which bad code is less likely to survive. Build the abstractions, generators and workflows that can produce and verify for you.
+If you want to achieve more, you have a few options:
 
-By the time a pull request reaches you, the obvious problems should already be gone.
+1. Reduce the quality. Make decisions faster, spend less time thinking about the consequences and accept more mistakes.
+2. Delegate decisions to AI. But making good decisions is what you're paid for. If AI can do that without your judgment, why does your employer need you?
+3. Automate the entire process. Build systems that can make decisions, execute them and verify the results without constant supervision. Then use the capacity you've gained to solve more problems.
 
-Your attention should be reserved for the things that are actually difficult to automate, such as whether the approach makes sense and whether the trade-offs are right.
+Number 3 is the only correct answer. It is time to tackle the problems we never had the time, money or resources to solve.
 
-### Data analyst
+## We haven't redesigned the factory yet
 
-Someone asks a question. You find the right tables, write SQL, make a chart, explain what happened, then answer three follow-up questions.
+Someone investigates a customer problem and writes a ticket. A designer proposes a solution. An engineer implements it. Someone reviews the change, someone tests it and eventually it reaches customers.
 
-Do not just generate the SQL faster.
+Give everyone an AI tool and each person can complete their part faster.
 
-Build a system that understands the company’s metrics, knows where the data lives, can investigate anomalies and produces an explanation with enough evidence that people can interrogate it directly.
+We've been given the power to automate so much more. Somehow we're using it to do exactly the same work a little faster.
+Why are we keeping the same process?
 
-Your value moves away from repeatedly extracting the answer and towards designing the system that can find trustworthy answers.
+We should be rebuilding everything from the ground up around what the technology makes possible.
 
-### Product designer
+Look at every step, every handoff, every approval. Treat them like the transmission belts in an old factory. Why are they still there? Are we keeping them because that's how we've always done things?
 
-You repeatedly turn product requirements into flows, mockups and variants. Then you fix the same inconsistencies: wrong spacing, inaccessible colours, strange interaction states and components used incorrectly.
+The goal is to automate as much of the process as possible, including the decisions and checks that previously required human involvement.
+If you can't make it work reliably, either you've built it badly or you're using the wrong technology for the problem.
 
-Do not just use AI to generate Figma screens faster.
+## How do you know whether it worked?
 
-Encode those decisions into the design system and the tools that generate the interface.
+When you export a document to PDF, you don't usually inspect every character. You trust that the software did what you wanted.
 
-Build a system that starts from the product constraints, generates candidate flows, checks them against the design system, applies known usability heuristics, incorporates behavioural data and surfaces only the genuinely difficult trade-offs to you.
+Once you're happy with your system. There are two measurements to keep track of.
+How much human work remains and how often the result is acceptable.
 
-Fix the system that produces the screens.
+A system can removes 95% of effort. But nobody is going to use it is the remaining 5% can cost them their career.
 
-### Engineering manager
+Instead of looking for a particular error rate, the target is to handle ordinary cases without intervention and involve you for exceptions.
 
-You spend hours asking for status, identifying blockers, checking whether projects are slipping and reminding people about dependencies.
+Measure the complete human effort: checking, correcting, handling exceptions and maintaining the system. Also measure failures that escaped its checks.
 
-Do not use AI to write prettier status summaries.
+If every output needs a full manual inspection, you've automated production but kept the review workload.
 
-Build a system that watches the actual work, detects deviations, asks for missing context and only involves you when a decision or intervention is required.
+The goal is to remove that constant supervision where the evidence supports doing so.
 
-That system will not resolve conflict, coach someone through a difficult situation or decide which trade-off the organisation should make.
+You are paid to make good decisions. That now includes deciding which decisions the system can make, what evidence it needs and where its authority ends.
 
-It will stop wasting your attention on collecting facts the software already knows.
+## You've automated everything. Why would they keep you?
 
-### QA engineer
+Because software doesn't have a fixed timeline. Technically, there's a point where everything has been done. All the specs have been delivered and there's nothing else to do. But there's always something to do. Maybe not at this company but another. That's why people building software are never out of work even though the goal of the very thing they do is that they are no longer needed for the project.
 
-You repeatedly test the same flows after every release.
+The same applies when you automate a process.
 
-Do not have AI click through the same test plan faster.
+You've built something useful. Now you can work on something else.
 
-Build a system that understands the product’s invariants, generates tests from changes, explores unexpected states and turns every production bug into a regression test.
-
-The goal is not a faster human-shaped testing process.
-
-The goal is a product that continuously tries to prove itself wrong.
-
-### Product manager
-
-You collect feedback from support, sales, analytics and interviews, then try to work out what matters.
-
-Do not use AI merely to summarise the feedback.
-
-Build a system that continuously clusters problems, connects them to behaviour and revenue, detects changes in frequency and gives you the few decisions actually worth spending human attention on.
+Refusing to automate doesn't guarantee your position anyway. If it can be done and you don't, someone else will.
