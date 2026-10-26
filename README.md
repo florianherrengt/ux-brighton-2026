@@ -5,8 +5,15 @@ This repository contains the Slidev deck and a small local subtitle utility.
 ## PowerPoint export
 
 With Dagger and Docker running, `npm run build:pptx` builds the deck and writes
-`dist/ux-brighton-2026.pptx`. The export contains one image per slide, so the
-factory video appears as a still frame.
+`dist/ux-brighton-2026.pptx`. Slides use images to preserve the deck's appearance;
+the factory slide also contains the embedded MP4, with muted autoplay and no loop.
+Open the exported PowerPoint in Keynote to present it with video playback. Reopen
+the newly exported file after rebuilding; an earlier Keynote import stays unchanged.
+
+Keynote autoplays the movie when advancing onto the slide. Navigating backwards
+to it resets the movie but leaves it paused, including for a movie inserted
+directly in Keynote. Click the movie to replay it, or go back one further slide
+and advance onto it again.
 
 Enable the tracked pre-commit hook once per checkout:
 

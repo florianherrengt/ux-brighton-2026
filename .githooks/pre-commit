@@ -4,12 +4,12 @@ set -eu
 project_dir=$(git rev-parse --show-toplevel)
 cd "$project_dir"
 
-if git diff --cached --quiet -- slides.md style.css assets package.json package-lock.json scripts/build-pptx.sh .githooks/pre-commit; then
+if git diff --cached --quiet -- slides.md style.css assets package.json package-lock.json scripts/build-pptx.sh scripts/embed-pptx-video.mjs .githooks/pre-commit; then
   exit 0
 fi
 
 staged_dir=$(mktemp -d)
 trap 'rm -rf "$staged_dir"' EXIT HUP INT TERM
 
-git archive --format=tar "$(git write-tree)" slides.md style.css package.json package-lock.json assets scripts/build-pptx.sh | tar -xf - -C "$staged_dir"
+git archive --format=tar "$(git write-tree)" slides.md style.css package.json package-lock.json assets scripts/build-pptx.sh scripts/embed-pptx-video.mjs | tar -xf - -C "$staged_dir"
 sh "$staged_dir/scripts/build-pptx.sh" "$staged_dir" "$project_dir/dist"

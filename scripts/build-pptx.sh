@@ -18,6 +18,8 @@ context_dir=$(mktemp -d)
 trap 'rm -rf "$context_dir"' EXIT HUP INT TERM
 cp "$source_dir/slides.md" "$source_dir/style.css" "$source_dir/package.json" "$source_dir/package-lock.json" "$context_dir/"
 cp -R "$source_dir/assets" "$context_dir/assets"
+mkdir "$context_dir/scripts"
+cp "$source_dir/scripts/embed-pptx-video.mjs" "$context_dir/scripts/"
 
 cd "$context_dir"
 DAGGER_NO_NAG=1 dagger -M -c '
@@ -29,6 +31,7 @@ container |
   with-exec -- npm ci |
   with-exec -- npm run build |
   with-exec -- ./node_modules/.bin/slidev export --format pptx --with-clicks=false --output /app/dist/ux-brighton-2026.pptx |
+  with-exec -- node scripts/embed-pptx-video.mjs dist/ux-brighton-2026.pptx |
   directory /app/dist |
   export ./dist
 '
