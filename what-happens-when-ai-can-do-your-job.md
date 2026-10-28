@@ -6,6 +6,8 @@ We're having CEOs from major companies saying that they're firing everyone to re
 
 Why can they do all of this? Because AI is getting really good. And it's true. It is getting very good. The models are getting better really fast. On several benchmarks, they're better or getting close to being better than humans.
 
+The gray dotted line here is the human baseline and we can see that models are now outperforming humans on pretty much everything.
+
 The replacement of horses by cars in the United States is uncannily similar. Cars are getting better slowly and slowly. Then they start to get really good and there's a total collapse of horses in the US.
 
 Why would you buy a horse when you can buy a car?
