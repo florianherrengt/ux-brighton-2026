@@ -520,6 +520,83 @@ class: durant-diptych
 
 ---
 layout: center
+class: ai-claim-slide raspberry-question-slide
+---
+
+<div class="quote-slide-content">
+  <img src="./assets/ai-learning/raspberry-icon.png" alt="Red raspberry icon with green leaves" />
+  <h1>How many R’s are<br>in <span>raspberry</span>?</h1>
+</div>
+
+<!--
+[Sources]
+- User-provided question: “How many R’s are in raspberry?”
+- Raspberry icon generated with OpenAI's built-in image-generation tool on 2026-10-27; transparent PNG, no third-party source asset.
+- Generation prompt: Create a single raspberry icon in a polished emoji style for a presentation slide. One ripe red raspberry with a recognizable tapered cluster of rounded drupelets and a small green calyx at the top. Friendly dimensional shading, clean silhouette, centered in a square canvas with a little clear margin. A raspberry, not a strawberry. Transparent background. No text, letters, numbers, border, badge, plate, extra fruit, or watermark.
+[/Sources]
+-->
+
+---
+layout: center
+class: ux-postings-slide ai-learning-slide
+---
+
+<h1>Know the machine</h1>
+
+<div class="draft-columns">
+  <section aria-labelledby="learning-vocabulary">
+    <h2 id="learning-vocabulary">Vocabulary</h2>
+    <ul>
+      <li>Token / tokenizer</li>
+      <li>Transformer</li>
+      <li>Embedding</li>
+      <li>Context window</li>
+      <li>Dense vs Mixture of Experts</li>
+      <li>Multimodal model</li>
+      <li>Prompt vs system prompt</li>
+      <li>Temperature / top-p sampling</li>
+      <li>Structured output</li>
+      <li>Tool / function calling / MCP</li>
+      <li>TTFT / tokens per second /<br>KV cache / prompt caching</li>
+      <li>RAG vs fine-tuning</li>
+      <li>Quantisation vs distillation</li>
+    </ul>
+  </section>
+  <section aria-labelledby="learning-questions">
+    <h2 id="learning-questions">Questions</h2>
+    <ul>
+      <li>Why hallucinate, even with web access?</li>
+      <li>Why is counting letters in “raspberry” hard?</li>
+      <li>Why can the same prompt give different answers?</li>
+      <li>How does a language model understand images?</li>
+    </ul>
+  </section>
+  <section aria-labelledby="learning-experiments">
+    <h2 id="learning-experiments">Experiments</h2>
+    <ul>
+      <li>Run an LLM on your computer</li>
+      <li>Run an LLM on your phone</li>
+      <li>Run a local vision-language model; describe or analyse an image</li>
+      <li>Compare one task across 3 model sizes</li>
+      <li>Compare one model’s quantisation levels: memory, speed &amp; answer quality</li>
+      <li>Vary temperature, context length &amp; inference settings</li>
+      <li>Fine-tune with LoRA</li>
+      <li>Distil a large model into a smaller one</li>
+      <li>Embed your own documents</li>
+      <li>Generate images with ComfyUI</li>
+      <li>Run speech-to-text locally</li>
+    </ul>
+  </section>
+</div>
+
+<!--
+[Sources]
+- User-provided vocabulary, questions and starter checklist, shortened for this slide; all 13 vocabulary groups, 4 questions and 11 experiments retained.
+[/Sources]
+-->
+
+---
+layout: center
 class: ai-claim-slide draft-detail-slide bad-ai-slide
 ---
 
@@ -697,6 +774,19 @@ Someone investigates a customer problem and writes a ticket. A designer proposes
 Give everyone an AI tool and each person can complete their part faster.
 We've been given the power to automate so much more. Somehow we're using it to do exactly the same work a little faster.
 Why are we keeping the same process?
+-->
+
+---
+layout: center
+class: ai-claim-slide
+---
+
+# Never correct<br><span>the AI</span>
+
+<!--
+[Sources]
+- User-provided slide wording: “Never correct the AI”.
+[/Sources]
 -->
 
 ---
