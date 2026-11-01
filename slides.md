@@ -46,15 +46,18 @@ layout: center
 class: image-slide
 ---
 
-<img
-  src="./assets/horses/stanford-ai-index-2026-benchmarks-vs-human-performance.jpg"
-  alt="Stanford AI Index 2026 chart comparing selected AI benchmarks with a 100% human performance baseline from 2012 to 2025, with the complete benchmark legend"
-/>
+<div class="chart-crop benchmark-chart-crop">
+  <img
+    src="./assets/horses/stanford-ai-index-2026-benchmarks-vs-human-performance.jpg"
+    alt="Stanford AI Index 2026 graph comparing AI benchmarks with the 100% human performance baseline from 2012 to 2025; axes and years retained, heading and colour legend cropped out"
+  />
+</div>
 
 <!--
 [Sources]
 - Stanford HAI, 2026 AI Index Report, Technical Performance, figure 2.1.1, “Select AI Index technical performance benchmarks vs. human performance”: https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance
 - Original 2024 × 1505 JPEG, downloaded unmodified on 2026-10-20: https://hai.stanford.edu/assets/images/fig_211.jpg
+- User-requested display crop, 2026-10-30: hide the heading, source line and bottom colour legend; retain the axes, percentages, years and complete plotted data. The original file and the following zoomed views are unchanged.
 - © Stanford University. No chart-specific open reuse licence identified; user-requested reproduction from the publisher. General site terms: https://www.stanford.edu/terms
 [/Sources]
 -->
@@ -100,14 +103,17 @@ layout: center
 class: image-slide
 ---
 
-<img
-  src="./assets/horses/replacement+of+horses+by+tractors+in+the+united+states-2357949175.jpg"
-  alt="Replacement of horses by cars in the United States from 1900 to 1960"
-/>
+<div class="chart-crop horse-chart-crop">
+  <img
+    src="./assets/horses/replacement+of+horses+by+tractors+in+the+united+states-2357949175.jpg"
+    alt="Graph of horses and cars in the United States from 1900 to 1960, retaining both curves, the horse and car illustrations, axis values and years"
+  />
+</div>
 
 <!--
 [Sources]
 - StaDaFa.com chart; underlying data sources are credited within the image.
+- User-requested display crop, 2026-10-30: hide the heading and source footer, retaining the axes, values, years and plotted data. The complete original file, including its attribution, is retained unchanged.
 [/Sources]
 -->
 
@@ -243,7 +249,7 @@ class: ai-claim-slide draft-detail-slide
 
 <div class="quote-slide-content">
   <h1>“It's just completely obvious that in five years deep learning is going to do better than radiologists.”</h1>
-  <p class="quote-attribution">Geoffrey Hinton — 2016<br>AI pioneer and Nobel laureate (2024)</p>
+  <p class="quote-attribution">Geoffrey Hinton – 2016<br>AI pioneer and Nobel laureate (2024)</p>
 </div>
 
 <!--
@@ -254,68 +260,15 @@ class: ai-claim-slide draft-detail-slide
 -->
 
 ---
-layout: center
-class: ai-claim-slide radiology-quote-slide
----
-
-<div class="quote-slide-content">
-  <h1>“I think that if you work as a radiologist you are like Wile E. Coyote in the cartoon. You’re <span>already over the edge of the cliff</span>, but you haven’t yet looked down. <span>There’s no ground underneath</span>”</h1>
-  <p class="quote-attribution">Geoffrey Hinton — 2016</p>
-</div>
-
-<!--
-[Sources]
-- User-provided wording of Geoffrey Hinton’s radiology comparison, retained as supplied rather than claimed as a verified verbatim transcript.
-- Original recording: Creative Destruction Lab, “Geoff Hinton: On Radiology,” published 2016-11-24: https://www.youtube.com/watch?v=2HMPRXstSvQ
-[/Sources]
--->
-
----
-layout: center
-class: image-slide
----
-
-<img
-  src="./assets/headlines/fortune-kai-fu-lee-2027-website-high-res.png"
-  alt="Screenshot of the Fortune website with its masthead, navigation, Kai-Fu Lee photograph, date and headline: Top VC Kai-Fu Lee says his prediction that AI will displace 50% of jobs by 2027 is ‘uncannily accurate’"
-/>
-
-<!--
-[Sources]
-- Fortune, Jason Ma, 2024-05-25: https://fortune.com/2024/05/25/ai-job-displacement-forecast-50-percent-2027-kai-fu-lee-chatgpt-openai/
-- Website screenshot captured from the publisher's rendered page on 2026-10-15 at 2× pixel density, including masthead, navigation, headline, byline, date and article photograph. Copyright Fortune Media IP Limited; photograph credited on the page to Hollie Adams, Bloomberg/Getty Images. All rights reserved; user-requested screenshot, no open reuse licence identified.
-[/Sources]
--->
-
----
-layout: center
-class: ai-claim-slide draft-detail-slide
----
-
-<div class="quote-slide-content">
-  <h1>“We might be <span class="quote-timeframe">6 to 12 months</span> away from when the model is doing most, maybe all of what SWEs do end to end.”</h1>
-  <p class="quote-attribution">— Dario Amodei, CEO of Anthropic</p>
-  <p class="quote-attribution quote-date">January 2026</p>
-</div>
-
-<!--
-[Sources]
-- Dario Amodei, “The Day After AGI,” World Economic Forum Annual Meeting, Davos, 2026-01-20. Official session recording: https://www.youtube.com/watch?v=NnVW9epLlTM
-- Official WEF transcript: https://www.weforum.org/podcasts/radio-davos/episodes/ai-agi-dario-amodei-demis-hassabis/ . User-supplied excerpt starts after “I think, I don't know”; SWEs means software engineers.
-- Official session listing: https://cn.weforum.org/meetings/world-economic-forum-annual-meeting-2026/sessions/the-day-after-agi/
-[/Sources]
--->
-
----
 class: ux-postings-slide historical-headlines-slide
 ---
 
 <div class="postings-rows" role="list" aria-label="Five historical AI and automation headlines and forecasts, with the year first">
-  <div class="postings-row" role="listitem"><strong>1960</strong><span>“Machines will be capable, within twenty years, of doing any work that a man can do.” <cite>— Herbert Simon</cite></span></div>
-  <div class="postings-row" role="listitem"><strong>2011</strong><span>“Foxconn Will Replace Workers With 1 Million Robots in 3 Years” <cite>— Nicholas Jackson</cite></span></div>
-  <div class="postings-row" role="listitem"><strong>2016</strong><span>“In the production process itself, there essentially would be no people.” <cite>— Elon Musk</cite></span></div>
-  <div class="postings-row" role="listitem"><strong>2017</strong><span>“Facebook engineers panic, pull plug on AI after bots develop their own language” <cite>— Mike Wehner</cite></span></div>
-  <div class="postings-row" role="listitem"><strong>2019</strong><span>“OpenAI built a text generator so good, it’s considered too dangerous to release” <cite>— Zack Whittaker</cite></span></div>
+  <div class="postings-row" role="listitem"><strong>1960</strong><span>“Machines will be capable, within twenty years, of doing any work that a man can do.” <cite>– Herbert Simon</cite></span></div>
+  <div class="postings-row" role="listitem"><strong>2011</strong><span>“Foxconn Will Replace Workers With 1 Million Robots in 3 Years” <cite>– Nicholas Jackson</cite></span></div>
+  <div class="postings-row" role="listitem"><strong>2016</strong><span>“In the production process itself, there essentially would be no people.” <cite>– Elon Musk</cite></span></div>
+  <div class="postings-row" role="listitem"><strong>2017</strong><span>“Facebook engineers panic, pull plug on AI after bots develop their own language” <cite>– Mike Wehner</cite></span></div>
+  <div class="postings-row" role="listitem"><strong>2019</strong><span>“OpenAI built a text generator so good, it’s considered too dangerous to release” <cite>– Zack Whittaker</cite></span></div>
 </div>
 
 <!--
@@ -337,6 +290,23 @@ class: ai-claim-slide
 ---
 
 # Nobody knows<br><span>the future.</span>
+
+---
+class: ux-postings-slide historical-headlines-slide story-recap-slide
+---
+
+<div class="postings-rows" role="list" aria-label="Four stories: story 1 of 4">
+  <div class="postings-row" role="listitem" aria-current="step"><strong>01</strong><span>The factory with a new engine</span></div>
+  <div class="postings-row" role="listitem"><strong>02</strong><span>The man in front of the machine</span></div>
+  <div class="postings-row" role="listitem"><strong>03</strong><span>The carriage maker who took a test drive</span></div>
+  <div class="postings-row" role="listitem"><strong>04</strong><span>The pit worker who looked inside the engine</span></div>
+</div>
+
+<!--
+[Sources]
+- User-approved historical story titles, 2026-10-30. The current story is highlighted before it begins; all four titles remain visible.
+[/Sources]
+-->
 
 ---
 layout: center
@@ -402,6 +372,23 @@ class: factory-photo-slide
 -->
 
 ---
+class: ux-postings-slide historical-headlines-slide story-recap-slide
+---
+
+<div class="postings-rows" role="list" aria-label="Four stories: story 2 of 4">
+  <div class="postings-row" role="listitem"><strong>01</strong><span>The factory with a new engine</span></div>
+  <div class="postings-row" role="listitem" aria-current="step"><strong>02</strong><span>The man in front of the machine</span></div>
+  <div class="postings-row" role="listitem"><strong>03</strong><span>The carriage maker who took a test drive</span></div>
+  <div class="postings-row" role="listitem"><strong>04</strong><span>The pit worker who looked inside the engine</span></div>
+</div>
+
+<!--
+[Sources]
+- User-approved historical story titles, 2026-10-30. The current story is highlighted before it begins; all four titles remain visible.
+[/Sources]
+-->
+
+---
 layout: center
 class: "durant-diptych red-flag-full-photos"
 ---
@@ -422,6 +409,23 @@ class: "durant-diptych red-flag-full-photos"
 [Sources]
 - User-provided image: assets/red-flag/red_flag_1.jpg
 - User-provided image: assets/red-flag/red_flag_2.jpg
+[/Sources]
+-->
+
+---
+class: ux-postings-slide historical-headlines-slide story-recap-slide
+---
+
+<div class="postings-rows" role="list" aria-label="Four stories: story 3 of 4">
+  <div class="postings-row" role="listitem"><strong>01</strong><span>The factory with a new engine</span></div>
+  <div class="postings-row" role="listitem"><strong>02</strong><span>The man in front of the machine</span></div>
+  <div class="postings-row" role="listitem" aria-current="step"><strong>03</strong><span>The carriage maker who took a test drive</span></div>
+  <div class="postings-row" role="listitem"><strong>04</strong><span>The pit worker who looked inside the engine</span></div>
+</div>
+
+<!--
+[Sources]
+- User-approved historical story titles, 2026-10-30. The current story is highlighted before it begins; all four titles remain visible.
 [/Sources]
 -->
 
@@ -488,6 +492,23 @@ class: durant-diptych
 -->
 
 ---
+class: ux-postings-slide historical-headlines-slide story-recap-slide
+---
+
+<div class="postings-rows" role="list" aria-label="Four stories: story 4 of 4">
+  <div class="postings-row" role="listitem"><strong>01</strong><span>The factory with a new engine</span></div>
+  <div class="postings-row" role="listitem"><strong>02</strong><span>The man in front of the machine</span></div>
+  <div class="postings-row" role="listitem"><strong>03</strong><span>The carriage maker who took a test drive</span></div>
+  <div class="postings-row" role="listitem" aria-current="step"><strong>04</strong><span>The pit worker who looked inside the engine</span></div>
+</div>
+
+<!--
+[Sources]
+- User-approved historical story titles, 2026-10-30. The current story is highlighted before it begins; all four titles remain visible.
+[/Sources]
+-->
+
+---
 layout: center
 class: durant-diptych
 ---
@@ -520,19 +541,20 @@ class: durant-diptych
 
 ---
 layout: center
-class: ai-claim-slide raspberry-question-slide
+class: ai-claim-slide strawberry-question-slide
 ---
 
 <div class="quote-slide-content">
-  <img src="./assets/ai-learning/raspberry-icon.png" alt="Red raspberry icon with green leaves" />
-  <h1>How many R’s are<br>in <span>raspberry</span>?</h1>
+  <img src="./assets/ai-learning/strawberry-icon.png" alt="Red strawberry icon with yellow seeds and green leaves" />
+  <h1>How many R’s are<br>in <span>strawberry</span>?</h1>
 </div>
 
 <!--
 [Sources]
-- User-provided question: “How many R’s are in raspberry?”
-- Raspberry icon generated with OpenAI's built-in image-generation tool on 2026-10-27; transparent PNG, no third-party source asset.
-- Generation prompt: Create a single raspberry icon in a polished emoji style for a presentation slide. One ripe red raspberry with a recognizable tapered cluster of rounded drupelets and a small green calyx at the top. Friendly dimensional shading, clean silhouette, centered in a square canvas with a little clear margin. A raspberry, not a strawberry. Transparent background. No text, letters, numbers, border, badge, plate, extra fruit, or watermark.
+- User-corrected question, 2026-10-30: “How many R’s are in strawberry?”
+- Strawberry icon generated with OpenAI's built-in image-generation tool on 2026-10-30, using the existing raspberry icon as the style/composition reference; transparent PNG, no third-party source asset. A cleanup edit removed a stray edge speck.
+- Edit prompt: Replace the raspberry with a ripe strawberry, retaining the reference image's polished dimensional fruit-emoji illustration style, bold red fruit, fresh green leafy crown, centered single-object composition and transparent background. Give the strawberry a heart-shaped berry tapering to a soft point, clearly visible small yellow seeds, and a short green leafy crown. One fruit only, no text, extra fruit, plate, border, badge, or watermark.
+- Original style-reference asset retained unchanged at assets/ai-learning/raspberry-icon.png; generated with OpenAI image generation on 2026-10-27 as a raspberry. Its original prompt specified “A raspberry, not a strawberry.”
 [/Sources]
 -->
 
@@ -566,7 +588,7 @@ class: ux-postings-slide ai-learning-slide
     <h2 id="learning-questions">Questions</h2>
     <ul>
       <li>Why hallucinate, even with web access?</li>
-      <li>Why is counting letters in “raspberry” hard?</li>
+      <li>Why is counting letters in “strawberry” hard?</li>
       <li>Why can the same prompt give different answers?</li>
       <li>How does a language model understand images?</li>
     </ul>
@@ -830,16 +852,30 @@ class: ai-claim-slide
 
 ---
 layout: center
-class: ai-claim-slide
+class: ai-claim-slide closing-recap-slide
 ---
 
+<section aria-labelledby="closing-recap-title">
+  <h1 id="closing-recap-title">What to do <span>next.</span></h1>
+  <ul class="closing-recap-list">
+    <li>Redesign the factory.</li>
+    <li>Don’t hold the red flag.</li>
+    <li>Understand the machine.</li>
+    <li>Know what problem you solve.</li>
+    <li>Keep making good decisions.</li>
+    <li>Never correct the AI.</li>
+    <li>Automate everything.</li>
+  </ul>
+</section>
+
 <a class="blog-link" href="https://blog.florianherrengt.com/" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/closing/blog-qr.png" width="300" height="300" alt="QR code linking to blog.florianherrengt.com" />
+  <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to blog.florianherrengt.com" />
   <span>blog.florianherrengt.com</span>
 </a>
 
 <!--
 [Sources]
+- User-selected recap wording and order, 2026-10-30; summarises the talk’s historical lessons and practical advice.
 - User-provided blog URL: https://blog.florianherrengt.com/
 - QR code generated locally with macOS Core Image, encoding the same URL; no external artwork.
 [/Sources]
