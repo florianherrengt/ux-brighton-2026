@@ -851,13 +851,51 @@ class: ai-claim-slide
 -->
 
 ---
-layout: center
-class: ai-claim-slide closing-recap-slide
+title: "Lessons from the past · How to work now"
+class: ux-postings-slide recap-option recap-columns
 ---
 
-<section aria-labelledby="closing-recap-title">
-  <h1 id="closing-recap-title">What to do <span>next.</span></h1>
-  <ul class="closing-recap-list">
+<div class="recap-column-layout">
+  <section aria-labelledby="recap-columns-lessons">
+    <h2 id="recap-columns-lessons">Lessons from the past</h2>
+    <ul class="recap-lesson-list">
+      <li class="recap-lesson">Redesign the factory.</li>
+      <li class="recap-lesson">Don’t hold the red flag.</li>
+      <li class="recap-lesson">Know what problem you solve.</li>
+      <li class="recap-lesson">Understand the machine.</li>
+    </ul>
+  </section>
+  <section class="recap-column-practice" aria-labelledby="recap-columns-rules">
+    <h2 id="recap-columns-rules">How to work now</h2>
+    <ul class="recap-rules">
+      <li>Keep making good decisions.</li>
+      <li>Never correct the AI.</li>
+      <li>Automate everything.</li>
+    </ul>
+    <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+      <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
+      <span>blog.florianherrengt.com</span>
+    </a>
+  </section>
+</div>
+
+<!--
+[Sources]
+- Historical lessons summarise the factory, red-flag, William Durant and George Stephenson sections of draft.md, in the talk’s existing story order.
+- All seven imperatives retain the wording of the existing closing recap. The four historical lessons and three working rules are presented as separate groups.
+- QR code generated locally with macOS Core Image; uses the deck palette and the user-approved blog URL and Google Analytics tags. No external artwork.
+[/Sources]
+-->
+
+---
+layout: center
+title: "Comparison: Original recap"
+class: ai-claim-slide closing-recap-slide closing-comparison-slide
+---
+
+<section aria-labelledby="closing-comparison-title">
+  <h1 id="closing-comparison-title">What to do <span>next.</span></h1>
+  <ul class="closing-recap-list" aria-label="Four lessons from the stories, followed by three principles for working now">
     <li>Redesign the factory.</li>
     <li>Don’t hold the red flag.</li>
     <li>Understand the machine.</li>
@@ -868,15 +906,201 @@ class: ai-claim-slide closing-recap-slide
   </ul>
 </section>
 
-<a class="blog-link" href="https://blog.florianherrengt.com/" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to blog.florianherrengt.com" />
+<a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
   <span>blog.florianherrengt.com</span>
 </a>
 
 <!--
 [Sources]
-- User-selected recap wording and order, 2026-10-30; summarises the talk’s historical lessons and practical advice.
-- User-provided blog URL: https://blog.florianherrengt.com/
-- QR code generated locally with macOS Core Image, encoding the same URL; no external artwork.
+- User-requested comparison with the published original recap, retaining its wording, list order and composition: https://florianherrengt.github.io/ux-brighton-2026/45
+- The first four points summarise the historical stories in draft.md; the remaining three retain the author's practical advice.
+- QR code generated locally with macOS Core Image; reuses the current orange asset, user-approved blog URL and Google Analytics tags. No external artwork.
+[/Sources]
+-->
+
+---
+title: "QR option 1: Centre rail"
+class: ux-postings-slide qr-study qr-study--rail
+---
+
+<div class="qr-study-layout">
+  <section class="qr-study-lessons" aria-labelledby="qr-study-rail-lessons">
+    <h2 id="qr-study-rail-lessons">Lessons from the past</h2>
+    <ul>
+      <li>Redesign the factory.</li>
+      <li>Don’t hold the red flag.</li>
+      <li>Know what problem you solve.</li>
+      <li>Understand the machine.</li>
+    </ul>
+  </section>
+  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>blog.florianherrengt.com</span>
+  </a>
+  <section class="qr-study-practice" aria-labelledby="qr-study-rail-practice">
+    <h2 id="qr-study-rail-practice">How to work now</h2>
+    <ul>
+      <li>Keep making good decisions.</li>
+      <li>Never correct the AI.</li>
+      <li>Automate everything.</li>
+    </ul>
+  </section>
+</div>
+
+<!--
+[Sources]
+- User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+[/Sources]
+-->
+
+---
+title: "QR option 2: Shared centre footer"
+class: ux-postings-slide qr-study qr-study--footer
+---
+
+<div class="qr-study-layout">
+<div class="qr-study-pair">
+  <section class="qr-study-lessons" aria-labelledby="qr-study-footer-lessons">
+    <h2 id="qr-study-footer-lessons">Lessons from the past</h2>
+    <ul>
+      <li>Redesign the factory.</li>
+      <li>Don’t hold the red flag.</li>
+      <li>Know what problem you solve.</li>
+      <li>Understand the machine.</li>
+    </ul>
+  </section>
+  <section class="qr-study-practice" aria-labelledby="qr-study-footer-practice">
+    <h2 id="qr-study-footer-practice">How to work now</h2>
+    <ul>
+      <li>Keep making good decisions.</li>
+      <li>Never correct the AI.</li>
+      <li>Automate everything.</li>
+    </ul>
+  </section>
+</div>
+  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>blog.florianherrengt.com</span>
+  </a>
+</div>
+
+<!--
+[Sources]
+- User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+[/Sources]
+-->
+
+---
+title: "QR option 3: Interrupted centre divider"
+class: ux-postings-slide qr-study qr-study--spine
+---
+
+<div class="qr-study-layout">
+<div class="qr-study-pair">
+  <section class="qr-study-lessons" aria-labelledby="qr-study-spine-lessons">
+    <h2 id="qr-study-spine-lessons">Lessons from the past</h2>
+    <ul>
+      <li>Redesign the factory.</li>
+      <li>Don’t hold the red flag.</li>
+      <li>Know what problem you solve.</li>
+      <li>Understand the machine.</li>
+    </ul>
+  </section>
+  <section class="qr-study-practice" aria-labelledby="qr-study-spine-practice">
+    <h2 id="qr-study-spine-practice">How to work now</h2>
+    <ul>
+      <li>Keep making good decisions.</li>
+      <li>Never correct the AI.</li>
+      <li>Automate everything.</li>
+    </ul>
+  </section>
+</div>
+  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>blog.florianherrengt.com</span>
+  </a>
+</div>
+
+<!--
+[Sources]
+- User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+[/Sources]
+-->
+
+---
+title: "QR option 4: Top-centred shared anchor"
+class: ux-postings-slide qr-study qr-study--header
+---
+
+<div class="qr-study-layout">
+  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="200" height="200" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>blog.florianherrengt.com</span>
+  </a>
+<div class="qr-study-pair">
+  <section class="qr-study-lessons" aria-labelledby="qr-study-header-lessons">
+    <h2 id="qr-study-header-lessons">Lessons from the past</h2>
+    <ul>
+      <li>Redesign the factory.</li>
+      <li>Don’t hold the red flag.</li>
+      <li>Know what problem you solve.</li>
+      <li>Understand the machine.</li>
+    </ul>
+  </section>
+  <section class="qr-study-practice" aria-labelledby="qr-study-header-practice">
+    <h2 id="qr-study-header-practice">How to work now</h2>
+    <ul>
+      <li>Keep making good decisions.</li>
+      <li>Never correct the AI.</li>
+      <li>Automate everything.</li>
+    </ul>
+  </section>
+</div>
+</div>
+
+<!--
+[Sources]
+- User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+[/Sources]
+-->
+
+---
+title: "QR option 5: Horizontal sections around the QR"
+class: ux-postings-slide qr-study qr-study--bands
+---
+
+<div class="qr-study-layout">
+  <section class="qr-study-lessons" aria-labelledby="qr-study-bands-lessons">
+    <h2 id="qr-study-bands-lessons">Lessons from the past</h2>
+    <ul>
+      <li>Redesign the factory.</li>
+      <li>Don’t hold the red flag.</li>
+      <li>Know what problem you solve.</li>
+      <li>Understand the machine.</li>
+    </ul>
+  </section>
+  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="190" height="190" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>blog.florianherrengt.com</span>
+  </a>
+  <section class="qr-study-practice" aria-labelledby="qr-study-bands-practice">
+    <h2 id="qr-study-bands-practice">How to work now</h2>
+    <ul>
+      <li>Keep making good decisions.</li>
+      <li>Never correct the AI.</li>
+      <li>Automate everything.</li>
+    </ul>
+  </section>
+</div>
+
+<!--
+[Sources]
+- User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
 [/Sources]
 -->
