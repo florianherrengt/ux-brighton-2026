@@ -872,9 +872,9 @@ class: ux-postings-slide recap-option recap-columns
       <li>Never correct the AI.</li>
       <li>Automate everything.</li>
     </ul>
-    <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-      <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-      <span>blog.florianherrengt.com</span>
+    <a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+      <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+      <span>florianherrengt.com</span>
     </a>
   </section>
 </div>
@@ -883,7 +883,7 @@ class: ux-postings-slide recap-option recap-columns
 [Sources]
 - Historical lessons summarise the factory, red-flag, William Durant and George Stephenson sections of draft.md, in the talk’s existing story order.
 - All seven imperatives retain the wording of the existing closing recap. The four historical lessons and three working rules are presented as separate groups.
-- QR code generated locally with macOS Core Image; uses the deck palette and the user-approved blog URL and Google Analytics tags. No external artwork.
+- QR code generated locally with macOS Core Image; uses the deck palette and the user-requested website URL and Google Analytics tags. No external artwork.
 [/Sources]
 -->
 
@@ -906,16 +906,16 @@ class: ai-claim-slide closing-recap-slide closing-comparison-slide
   </ul>
 </section>
 
-<a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-  <span>blog.florianherrengt.com</span>
+<a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/closing/blog-qr.png" width="260" height="260" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+  <span>florianherrengt.com</span>
 </a>
 
 <!--
 [Sources]
 - User-requested comparison with the published original recap, retaining its wording, list order and composition: https://florianherrengt.github.io/ux-brighton-2026/45
 - The first four points summarise the historical stories in draft.md; the remaining three retain the author's practical advice.
-- QR code generated locally with macOS Core Image; reuses the current orange asset, user-approved blog URL and Google Analytics tags. No external artwork.
+- QR code generated locally with macOS Core Image; reuses the current orange asset, user-requested website URL and Google Analytics tags. No external artwork.
 [/Sources]
 -->
 
@@ -934,9 +934,9 @@ class: ux-postings-slide qr-study qr-study--rail
       <li>Understand the machine.</li>
     </ul>
   </section>
-  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-    <span>blog.florianherrengt.com</span>
+  <a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>florianherrengt.com</span>
   </a>
   <section class="qr-study-practice" aria-labelledby="qr-study-rail-practice">
     <h2 id="qr-study-rail-practice">How to work now</h2>
@@ -951,7 +951,7 @@ class: ux-postings-slide qr-study qr-study--rail
 <!--
 [Sources]
 - User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
-- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-requested website URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
 [/Sources]
 -->
 
@@ -980,16 +980,16 @@ class: ux-postings-slide qr-study qr-study--footer
     </ul>
   </section>
 </div>
-  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-    <span>blog.florianherrengt.com</span>
+  <a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>florianherrengt.com</span>
   </a>
 </div>
 
 <!--
 [Sources]
 - User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
-- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-requested website URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
 [/Sources]
 -->
 
@@ -1018,16 +1018,16 @@ class: ux-postings-slide qr-study qr-study--spine
     </ul>
   </section>
 </div>
-  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-    <span>blog.florianherrengt.com</span>
+  <a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="220" height="220" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>florianherrengt.com</span>
   </a>
 </div>
 
 <!--
 [Sources]
 - User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
-- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-requested website URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
 [/Sources]
 -->
 
@@ -1037,9 +1037,9 @@ class: ux-postings-slide qr-study qr-study--header
 ---
 
 <div class="qr-study-layout">
-  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/closing/blog-qr.png" width="200" height="200" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-    <span>blog.florianherrengt.com</span>
+  <a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="200" height="200" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>florianherrengt.com</span>
   </a>
 <div class="qr-study-pair">
   <section class="qr-study-lessons" aria-labelledby="qr-study-header-lessons">
@@ -1065,7 +1065,7 @@ class: ux-postings-slide qr-study qr-study--header
 <!--
 [Sources]
 - User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
-- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-requested website URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
 [/Sources]
 -->
 
@@ -1084,9 +1084,9 @@ class: ux-postings-slide qr-study qr-study--bands
       <li>Understand the machine.</li>
     </ul>
   </section>
-  <a class="blog-link" href="https://blog.florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/closing/blog-qr.png" width="190" height="190" alt="QR code linking to blog.florianherrengt.com with UX Brighton 2026 campaign tracking" />
-    <span>blog.florianherrengt.com</span>
+  <a class="blog-link" href="https://florianherrengt.com/?utm_source=ux-brighton&amp;utm_medium=qr&amp;utm_campaign=2026" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/closing/blog-qr.png" width="190" height="190" alt="QR code linking to florianherrengt.com with UX Brighton 2026 campaign tracking" />
+    <span>florianherrengt.com</span>
   </a>
   <section class="qr-study-practice" aria-labelledby="qr-study-bands-practice">
     <h2 id="qr-study-bands-practice">How to work now</h2>
@@ -1101,6 +1101,6 @@ class: ux-postings-slide qr-study qr-study--bands
 <!--
 [Sources]
 - User-requested layout exploration. Both headings and all seven advice phrases are retained from the current recap and draft.md; no new claims.
-- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-approved blog URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
+- Reused orange QR asset generated locally with macOS Core Image: assets/closing/blog-qr.png. It encodes the user-requested website URL with utm_source=ux-brighton, utm_medium=qr and utm_campaign=2026; no external artwork.
 [/Sources]
 -->
