@@ -34,6 +34,14 @@ jobs:
       - name: Build
         run: npm run build -- --base /${{ github.event.repository.name }}/
 
+      - name: Set up Dagger
+        uses: dagger/dagger-for-github@v8.4.1
+        with:
+          version: v0.21.8
+
+      - name: Build PowerPoint export
+        run: npm run build:pptx
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 

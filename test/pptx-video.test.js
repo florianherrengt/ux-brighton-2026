@@ -172,3 +172,42 @@ test('rejects an input that already contains the factory video', async () => {
     /already|video/i,
   )
 })
+
+test('preserves the closing website link over its rendered bounds without changing slide images or notes', async () => {
+  const markdown = markdownWithFactorySlide(0)
+    .replace('class: fixture-slide-3', 'class: closing-recap-slide')
+  const original = await makePptx()
+  const withoutLink = await zipBuffer(await embedFactoryVideo(original, markdown, video))
+  const withLink = await zipBuffer(await embedFactoryVideo(original, markdown, video, {
+    href: 'https://example.com/?source=talk&campaign=2026',
+    x: 0.7, y: 0.2, width: 0.25, height: 0.6,
+  }))
+  const slideXml = await withLink.file('ppt/slides/slide3.xml').async('string')
+  const relsXml = await withLink.file('ppt/slides/_rels/slide3.xml.rels').async('string')
+  const link = relationships(relsXml).find(rel => rel.Type?.endsWith('/hyperlink'))
+  assert.ok(link)
+  assert.equal(link.Target, 'https://example.com/?source=talk&amp;campaign=2026')
+  assert.equal(link.TargetMode, 'External')
+  assert.match(slideXml, new RegExp(`<a:hlinkClick r:id="${link.Id}"`))
+  assert.match(slideXml, /<a:off x="6400800" y="1028700"\/>/)
+  assert.match(slideXml, /<a:ext cx="2286000" cy="3086100"\/>/)
+  assert.match(slideXml, /<a:alpha val="0"\/>/)
+  assert.match(slideXml, /<a:ln><a:noFill\/><\/a:ln>/)
+
+  for (const name of Object.keys(withoutLink.files)) {
+    if (withoutLink.files[name].dir
+      || name === 'ppt/slides/slide3.xml'
+      || name === 'ppt/slides/_rels/slide3.xml.rels')
+      continue
+    assert.deepEqual(await withLink.file(name).async('nodebuffer'),
+      await withoutLink.file(name).async('nodebuffer'), `${name} should remain unchanged`)
+  }
+})
+
+test('rejects a website link outside the slide instead of silently exporting an incorrect click target', async () => {
+  const markdown = markdownWithFactorySlide(0)
+    .replace('class: fixture-slide-3', 'class: closing-recap-slide')
+  await assert.rejects(embedFactoryVideo(await makePptx(), markdown, video, {
+    href: 'https://example.com/', x: 0.9, y: 0.2, width: 0.25, height: 0.6,
+  }), /slide bounds/)
+})
