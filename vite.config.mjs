@@ -23,6 +23,12 @@ export default {
 
       this.emitFile({
         type: 'asset',
+        fileName: 'handout/index.md',
+        source,
+      })
+
+      this.emitFile({
+        type: 'asset',
         fileName: 'handout/index.html',
         source: `<!doctype html>
 <html lang="en-GB">
