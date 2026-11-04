@@ -2,6 +2,12 @@
 
 This repository contains the Slidev deck and a small local subtitle utility.
 
+## Attendee handout
+
+The [attendee handout](https://florianherrengt.github.io/ux-brighton-2026/handout/)
+is built from `handout/index.md`. Run `npm run build` to render it at
+`dist/handout/index.html` alongside the deck.
+
 ## PowerPoint export
 
 Download the [PowerPoint version](https://florianherrengt.github.io/ux-brighton-2026/ux-brighton-2026.pptx).
