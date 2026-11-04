@@ -4,7 +4,7 @@ Florian Herrengt · UX Brighton 2026
 
 [florianherrengt.com](https://florianherrengt.com/) · [read my blog](https://blog.florianherrengt.com/)
 
-[Open the slides](https://florianherrengt.github.io/ux-brighton-2026/) · [Download the PowerPoint](https://florianherrengt.github.io/ux-brighton-2026/ux-brighton-2026.pptx) · [GitHub repo](https://github.com/florianherrengt/ux-brighton-2026)
+[Watch the short intro](https://www.youtube.com/shorts/gnIjE5Gw058) · [Open the slides](https://florianherrengt.github.io/ux-brighton-2026/) · [Download the PowerPoint](https://florianherrengt.github.io/ux-brighton-2026/ux-brighton-2026.pptx) · [GitHub repo](https://github.com/florianherrengt/ux-brighton-2026)
 
 [The four stories](#the-four-stories) · [Never correct the AI](#never-correct-the-ai) · [Reading list](#reading-list) · [Sources](#sources)
 
